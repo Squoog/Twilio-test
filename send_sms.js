@@ -9,7 +9,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages
   .create({
-     body: 'Hello I am testing my Twilio app',
+     body: 'I like eggs',
      from: process.env.SEND_FROM_NUMBER,
      to: process.env.SEND_TO
    })
