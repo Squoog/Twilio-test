@@ -11,7 +11,7 @@ You'll then want to create a file and name it `.env`
 
 Copy the contents of the `.env.test` file provided into `.env` and replace the placeholder information with your Twilio account SID, authorization key, provided phone number, and the number of the recipient. Note that you must include the country code as part of the phone number. You can register for Twilio [HERE](https://www.twilio.com/).
 
-Once complete, the contents of your .env file might look something like this:
+Once complete, the contents of your .env file should look something like this:
 
 ```
 TWILIO_ACCOUNT_SID='EEEEEEEEEEEEEEEEEEEEEEE'
